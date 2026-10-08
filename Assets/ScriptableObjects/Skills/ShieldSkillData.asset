@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e5bb14b4f92a94f898554a2514a576, type: 3}
+  m_Name: ShieldSkillData
+  m_EditorClassIdentifier: Assembly-CSharp::ShieldSkillData
+  _icon: {fileID: -659151697, guid: b9582174ca5f45d4b83ccaaafd4ea4ef, type: 3}
+  _cooldown: 7
+  _description: 
+  _energyCost: 10
+  _isTimeSkill: 1
+  _duration: 10
+  _count: 1
+  _shieldPrefab: {fileID: 4782694237200440750, guid: 7d90c8b700d6db040b56227070adaa89, type: 3}
+  _maxDurability: 500
+  _maxAbsorption: 0
+  _damageReduction: 0.3
+  _blockRate: 0
+  _reflectPercent: 0
+  _regenRate: 0
+  _regenDelay: 0
+  _breakEffect: {fileID: 0}
