@@ -165,6 +165,16 @@
                     "interactions": "",
                     "initialStateCheck": true,
                     "priority": 0
+                },
+                {
+                    "name": "CursorUnlock",
+                    "type": "Button",
+                    "id": "da6960c5-dbb9-463d-8d01-eae59d2ce4b3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -715,6 +725,17 @@
                     "processors": "Scale(factor=8)",
                     "groups": "",
                     "action": "Skills",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47068214-d9a2-479a-b900-5a16f55c8787",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "CursorUnlock",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
